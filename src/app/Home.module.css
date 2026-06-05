@@ -19,7 +19,7 @@
 
 .botao {
   display: inline-block;
-  background: #4dabf7;
+  background: #7badd6;
   color: white;
   padding: 12px 28px;
   border-radius: 8px;
@@ -28,7 +28,7 @@
 }
 
 .botao:hover {
-  background: #339af0;
+  background: #87929b;
 }
 
 .secao {
