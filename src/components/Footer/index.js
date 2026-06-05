@@ -1,10 +1,12 @@
+import styles from "./Footer.module.css";
+
 function Footer() {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <p>Todos os direitos reservados. Copyright © 2026.</p>
             <p>
                 dados fornecidos por{""}
-                <a href="https://rawg.io" target="_blank" rel="noopener noreferrer">
+                <a href="https://rawg.io" target="_blank" rel="noopener noreferrer" className={styles.link}>
                     RAWG
                 </a>
             </p>

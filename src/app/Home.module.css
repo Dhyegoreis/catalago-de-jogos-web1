@@ -1,0 +1,46 @@
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #16213e;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #aaa;
+  max-width: 600px;
+  margin: 0 auto 24px;
+}
+
+.botao {
+  display: inline-block;
+  background: #4dabf7;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.botao:hover {
+  background: #339af0;
+}
+
+.secao {
+  padding: 40px 20px;
+}
+
+.secao h2 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
