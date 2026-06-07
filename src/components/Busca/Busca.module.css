@@ -1,9 +1,10 @@
 .input {
-  width: 100%;
+  width: calc(100% - 40px);
   max-width: 400px;
   padding: 10px 14px;
   margin: 0 20px 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   font-size: 15px;
+  box-sizing: border-box;
 }
