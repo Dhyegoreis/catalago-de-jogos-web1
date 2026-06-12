@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaHome, FaGamepad, FaEnvelope } from "react-icons/fa";
+import { FaHome, FaGamepad, FaEnvelope,FaInfoCircle } from "react-icons/fa";
 import styles from "./Header.module.css";
 
 function Header() {
@@ -21,6 +21,11 @@ function Header() {
             <Link href="/contato" className={styles.link}>
               <FaEnvelope /> Contato
             </Link>
+          </li>
+          <li>
+            <Link href="/sobre" className={styles.link}>
+              <FaInfoCircle /> Sobre
+             </Link>
           </li>
         </ul>
       </nav>

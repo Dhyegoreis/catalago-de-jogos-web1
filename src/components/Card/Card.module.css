@@ -2,7 +2,7 @@
     background-color: #1a1a2e;
     border-radius: 12px;
     overflow: hidden;
-    width: 250px;
+    width: 100%;
     color: white;
     transition: transform 0.2s;
 }
